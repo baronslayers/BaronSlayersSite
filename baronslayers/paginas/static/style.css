@@ -16,3 +16,7 @@ nav{
     text-decoration: none;
 }
 
+section {
+    margin: 1vw;
+    text-align: justify;
+}

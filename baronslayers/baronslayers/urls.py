@@ -19,5 +19,9 @@ from paginas import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index)
+    path('', views.home),
+    path('sobre', views.home),
+    path('atualizacoes', views.atualizacoes),
+    path('comentarios', views.comentarios),
+    path('imagens', views.imagens),
 ]
