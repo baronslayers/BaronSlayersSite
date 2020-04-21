@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from paginas import views
+from register import views as v
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,4 +25,5 @@ urlpatterns = [
     path('atualizacoes', views.atualizacoes),
     path('comentarios', views.comentarios),
     path('imagens', views.imagens),
+    path('register', v.register),
 ]
