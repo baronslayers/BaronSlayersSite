@@ -1,12 +1,15 @@
 {% load crispy_forms_tags %}
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrar em BaronSlayers</title>
 </head>
 <body>
+    <script>
+        window.alert("Se não falar inglês, por favor,traduza a página; If you dont speak english, please, translate the page")
+    </script>
     <form method="POST">
         {% csrf_token %}
         {{form|crispy}}
